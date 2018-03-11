@@ -1,0 +1,27 @@
+:root {
+	--base-font-color: #2b2f3d;
+	--base-body: #466874;
+}
+
+body {
+	padding: 50px;
+	background-color: var(--base-body);
+	color: var(--base-font-color);
+	font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper {
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 
+}
+
+
+.about__name {
+	padding: 25px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.2);
+}
+.about__name:hover {
+	box-shadow: 0 15px 25px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.32);
+}
