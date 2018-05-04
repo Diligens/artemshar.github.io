@@ -1,0 +1,27 @@
+{
+  "name": "diligens.github.io",
+  "version": "1.0.0",
+  "description": "my site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diligens/diligens.github.io.git"
+  },
+  "author": "Artem Diligens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diligens/diligens.github.io/issues"
+  },
+  "homepage": "https://github.com/Diligens/diligens.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.24.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-sass": "^4.0.1"
+  }
+}
