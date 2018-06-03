@@ -1,4 +1,7 @@
 @import "lib/normalize";
 @import "lib/reset";
 
+@import "slices/_mixins";
 @import "slices/style";
+@import "slices/nav";
+@import "slices/content";

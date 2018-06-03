@@ -1,0 +1,21 @@
+.content {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  max-width: 720px;
+  padding: 50px 40px 30px;
+  overflow: auto;
+  line-height: 1.4;
+
+  .article {
+    font-size: 1.1rem;
+    .article__title {
+      text-align: center;
+    }
+    .article__text {
+      text-indent: 50px;
+      margin-bottom: 20px;
+    }
+    margin-bottom: 70px;
+  }
+}
